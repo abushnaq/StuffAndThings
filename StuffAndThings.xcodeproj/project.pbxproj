@@ -13,6 +13,13 @@
 		933392751BAD7C8600EEC7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933392731BAD7C8600EEC7C4 /* Main.storyboard */; };
 		933392771BAD7C8600EEC7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933392761BAD7C8600EEC7C4 /* Assets.xcassets */; };
 		9333927A1BAD7C8600EEC7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933392781BAD7C8600EEC7C4 /* LaunchScreen.storyboard */; };
+		933392821BAD7DBC00EEC7C4 /* IMG_0036.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 933392811BAD7DBC00EEC7C4 /* IMG_0036.PNG */; };
+		933392851BAD800900EEC7C4 /* MoveableUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 933392841BAD800900EEC7C4 /* MoveableUIImageView.m */; };
+		939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CFFBA1C0223BC00AF9027 /* StartViewController.m */; };
+		93F63BE81BEFE83800C58C4E /* ScoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F63BE71BEFE83800C58C4E /* ScoreBar.m */; };
+		93F63BEA1BEFE84800C58C4E /* ScoreBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F63BE91BEFE84800C58C4E /* ScoreBar.xib */; };
+		93F715E31BF55C26009A4E56 /* SuccessSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F715E21BF55C26009A4E56 /* SuccessSplash.m */; };
+		93F715E51BF55C36009A4E56 /* SuccessSplash.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F715E41BF55C36009A4E56 /* SuccessSplash.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,18 @@
 		933392761BAD7C8600EEC7C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933392791BAD7C8600EEC7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9333927B1BAD7C8600EEC7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933392811BAD7DBC00EEC7C4 /* IMG_0036.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0036.PNG; sourceTree = "<group>"; };
+		933392831BAD800900EEC7C4 /* MoveableUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveableUIImageView.h; sourceTree = "<group>"; };
+		933392841BAD800900EEC7C4 /* MoveableUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveableUIImageView.m; sourceTree = "<group>"; };
+		939CFFB91C0223BC00AF9027 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		939CFFBA1C0223BC00AF9027 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		93F63BE61BEFE83800C58C4E /* ScoreBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBar.h; sourceTree = "<group>"; };
+		93F63BE71BEFE83800C58C4E /* ScoreBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBar.m; sourceTree = "<group>"; };
+		93F63BE91BEFE84800C58C4E /* ScoreBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreBar.xib; sourceTree = "<group>"; };
+		93F63BEB1BEFED8E00C58C4E /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		93F715E11BF55C26009A4E56 /* SuccessSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessSplash.h; sourceTree = "<group>"; };
+		93F715E21BF55C26009A4E56 /* SuccessSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessSplash.m; sourceTree = "<group>"; };
+		93F715E41BF55C36009A4E56 /* SuccessSplash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SuccessSplash.xib; path = ../SuccessSplash.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +83,21 @@
 				933392711BAD7C8600EEC7C4 /* ViewController.m */,
 				933392731BAD7C8600EEC7C4 /* Main.storyboard */,
 				933392761BAD7C8600EEC7C4 /* Assets.xcassets */,
+				933392811BAD7DBC00EEC7C4 /* IMG_0036.PNG */,
 				933392781BAD7C8600EEC7C4 /* LaunchScreen.storyboard */,
 				9333927B1BAD7C8600EEC7C4 /* Info.plist */,
 				9333926A1BAD7C8600EEC7C4 /* Supporting Files */,
+				933392831BAD800900EEC7C4 /* MoveableUIImageView.h */,
+				933392841BAD800900EEC7C4 /* MoveableUIImageView.m */,
+				93F715E41BF55C36009A4E56 /* SuccessSplash.xib */,
+				93F715E11BF55C26009A4E56 /* SuccessSplash.h */,
+				93F715E21BF55C26009A4E56 /* SuccessSplash.m */,
+				93F63BE61BEFE83800C58C4E /* ScoreBar.h */,
+				93F63BE71BEFE83800C58C4E /* ScoreBar.m */,
+				93F63BE91BEFE84800C58C4E /* ScoreBar.xib */,
+				93F63BEB1BEFED8E00C58C4E /* Globals.h */,
+				939CFFB91C0223BC00AF9027 /* StartViewController.h */,
+				939CFFBA1C0223BC00AF9027 /* StartViewController.m */,
 			);
 			path = StuffAndThings;
 			sourceTree = "<group>";
@@ -136,6 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F715E51BF55C36009A4E56 /* SuccessSplash.xib in Resources */,
+				93F63BEA1BEFE84800C58C4E /* ScoreBar.xib in Resources */,
+				933392821BAD7DBC00EEC7C4 /* IMG_0036.PNG in Resources */,
 				9333927A1BAD7C8600EEC7C4 /* LaunchScreen.storyboard in Resources */,
 				933392771BAD7C8600EEC7C4 /* Assets.xcassets in Resources */,
 				933392751BAD7C8600EEC7C4 /* Main.storyboard in Resources */,
@@ -149,9 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F63BE81BEFE83800C58C4E /* ScoreBar.m in Sources */,
 				933392721BAD7C8600EEC7C4 /* ViewController.m in Sources */,
+				93F715E31BF55C26009A4E56 /* SuccessSplash.m in Sources */,
+				939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */,
 				9333926F1BAD7C8600EEC7C4 /* AppDelegate.m in Sources */,
 				9333926C1BAD7C8600EEC7C4 /* main.m in Sources */,
+				933392851BAD800900EEC7C4 /* MoveableUIImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +338,7 @@
 				933392801BAD7C8600EEC7C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

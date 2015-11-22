@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MoveableUIImageView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MoveableUIImageViewDelegate>
 
 
 @end
