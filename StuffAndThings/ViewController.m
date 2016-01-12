@@ -10,6 +10,9 @@
 #import "MoveableUIImageView.h"
 #import "ScoreBar.h"
 #import "SuccessSplash.h"
+//#import "PhotoProvider.h"
+#import "StuffAndThings-Swift.h"
+
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet MoveableUIImageView *imageView;
@@ -19,6 +22,8 @@
 
 
 @property (strong, nonatomic) NSMutableArray *board;
+@property (strong, nonatomic) PhotoProvider *photoProvider;
+
 
 @end
 
@@ -28,6 +33,8 @@ static NSInteger puzzleSize = 2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.photoProvider = [[PhotoProvider alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
     
     
@@ -219,17 +226,14 @@ static NSInteger puzzleSize = 2;
         
         [self.scoreBar saveScoreAndReset];
         
-        [self setupPuzzleWithImage:[self nextImage]];
+        [self setupPuzzleWithImage:[self.photoProvider nextImage]];
 
         [splash removeFromSuperview];
     }];
     
 }
 
-- (UIImage*) nextImage
-{
-    return [UIImage imageNamed:@"Hôtel_de_Sully_depuis_la_rue_de_l'Hôtel-Saint-Paul,_Paris_1981"];
-}
+
 
 
 - (void)swapBlockAtRow:(int)rowID andColumn:(int)columnID withBlockAtRow:(int)otherRowID andColumn:(int)otherColumnID

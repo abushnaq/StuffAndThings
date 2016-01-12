@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xcg-YX-Vlx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xcg-YX-Vlx">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,10 +20,8 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0036" translatesAutoresizingMaskIntoConstraints="NO" id="VCl-a2-Twi" customClass="MoveableUIImageView">
                                 <rect key="frame" x="500" y="500" width="438" height="383"/>
-                                <animations/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
@@ -30,7 +30,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="611"/>
+            <point key="canvasLocation" x="1938" y="343"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="QT1-ZP-cIn">
@@ -49,12 +49,10 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYa-eI-BKJ">
                                         <rect key="frame" x="138" y="128" width="107" height="30"/>
-                                        <animations/>
                                         <state key="normal" title="High Score"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQM-qv-S31">
                                         <rect key="frame" x="140" y="76" width="103" height="30"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
@@ -63,21 +61,276 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ5-hC-noJ">
                                         <rect key="frame" x="132" y="184" width="118" height="30"/>
-                                        <animations/>
                                         <state key="normal" title="Challenge Mode"/>
+                                        <connections>
+                                            <segue destination="Zf6-jl-wqX" kind="presentation" modalTransitionStyle="partialCurl" id="LMh-H7-Jii"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" red="0.08235294118" green="0.66666666669999997" blue="0.86274509799999999" alpha="0.59599345439999996" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHF-Tw-dXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="572" y="98"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tc9-3E-JlH">
+            <objects>
+                <viewController id="CjN-fm-2LD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="okw-Iq-Q8m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bzu-9k-Fo7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dRc-51-LC4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvF-DG-iey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-192" y="961"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0RF-rs-EAO">
+            <objects>
+                <viewController id="Zf6-jl-wqX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kNG-7W-Hee"/>
+                        <viewControllerLayoutGuide type="bottom" id="CzW-XG-8yB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G1V-gJ-uFo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez5-WF-ULy">
+                                <rect key="frame" x="220" y="107" width="161" height="30"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="Current Challenge"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoC-BH-8kp">
+                                <rect key="frame" x="234" y="185" width="132" height="30"/>
+                                <state key="normal" title="My Challenges"/>
+                                <connections>
+                                    <segue destination="OAQ-lv-ANN" kind="show" id="j3l-2K-Buj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUm-tH-XtN">
+                                <rect key="frame" x="232" y="266" width="136" height="30"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="Create A Challenge"/>
+                                <connections>
+                                    <segue destination="s7C-G6-4fw" kind="presentation" modalPresentationStyle="overCurrentContext" id="e3Z-PU-aC5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKP-iZ-PU0">
+                                <rect key="frame" x="277" y="335" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DLw-ax-z7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="786"/>
+        </scene>
+        <!--My Challenges View Controller-->
+        <scene sceneID="Tv2-1g-VDw">
+            <objects>
+                <viewController id="OAQ-lv-ANN" customClass="MyChallengesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wdL-aw-Quy"/>
+                        <viewControllerLayoutGuide type="bottom" id="chw-A4-76o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uln-Ly-rKu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FDV-jm-aup">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChallengeCell" id="vl8-h1-RjA" customClass="ChallengeCell" customModule="StuffAndThings" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vl8-h1-RjA" id="lD0-Wb-d7X">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aI1-cd-u5g">
+                                                    <rect key="frame" x="14" y="0.0" width="46" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="46" id="7ic-wg-rAV"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="to0-l2-fCi">
+                                                    <rect key="frame" x="68" y="0.0" width="65" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="65" id="oUH-MB-mQg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPS-PC-n7r">
+                                                    <rect key="frame" x="152" y="0.0" width="42" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="42" id="sSa-9H-joG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdM-Iy-5xO">
+                                                    <rect key="frame" x="249" y="0.0" width="42" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="42" id="byh-rG-ga6"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                                    <color key="textColor" red="0.08235294118" green="0.66666666669999997" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NdM-Iy-5xO" firstAttribute="leading" secondItem="CPS-PC-n7r" secondAttribute="trailing" constant="55" id="8Co-7z-CRa"/>
+                                                <constraint firstItem="CPS-PC-n7r" firstAttribute="top" secondItem="lD0-Wb-d7X" secondAttribute="top" id="ARf-iU-bqb"/>
+                                                <constraint firstItem="CPS-PC-n7r" firstAttribute="leading" secondItem="to0-l2-fCi" secondAttribute="trailing" constant="19" id="D43-9S-kk0"/>
+                                                <constraint firstItem="to0-l2-fCi" firstAttribute="baseline" secondItem="CPS-PC-n7r" secondAttribute="baseline" id="GNG-iT-YgG"/>
+                                                <constraint firstItem="to0-l2-fCi" firstAttribute="leading" secondItem="aI1-cd-u5g" secondAttribute="trailing" constant="8" symbolic="YES" id="HE9-P4-Rya"/>
+                                                <constraint firstItem="aI1-cd-u5g" firstAttribute="top" secondItem="to0-l2-fCi" secondAttribute="top" id="JKD-Ou-8MA"/>
+                                                <constraint firstItem="CPS-PC-n7r" firstAttribute="firstBaseline" secondItem="NdM-Iy-5xO" secondAttribute="firstBaseline" id="KAP-Xp-462"/>
+                                                <constraint firstItem="to0-l2-fCi" firstAttribute="firstBaseline" secondItem="CPS-PC-n7r" secondAttribute="firstBaseline" id="OA7-mu-tzk"/>
+                                                <constraint firstItem="NdM-Iy-5xO" firstAttribute="baseline" secondItem="CPS-PC-n7r" secondAttribute="baseline" id="Ok3-Bx-0fF"/>
+                                                <constraint firstItem="aI1-cd-u5g" firstAttribute="leading" secondItem="lD0-Wb-d7X" secondAttribute="leadingMargin" constant="6" id="gRR-Pe-R4T"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="aI1-cd-u5g" secondAttribute="bottom" constant="-0.5" id="lqF-s5-NfJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="to0-l2-fCi" secondAttribute="bottom" constant="14.5" id="zw9-VA-21L"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="currentPhoto" destination="aI1-cd-u5g" id="jQA-nC-Abo"/>
+                                            <outlet property="progressLabel" destination="to0-l2-fCi" id="3k8-J6-DMI"/>
+                                            <outlet property="progressValue" destination="CPS-PC-n7r" id="niT-Bj-jNc"/>
+                                            <outlet property="sender" destination="NdM-Iy-5xO" id="k0E-I1-nEG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OAQ-lv-ANN" id="gvP-5R-jdI"/>
+                                    <outlet property="delegate" destination="OAQ-lv-ANN" id="NAM-eh-nWI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FDV-jm-aup" firstAttribute="width" secondItem="Uln-Ly-rKu" secondAttribute="width" id="Su1-Ih-VU3"/>
+                            <constraint firstItem="FDV-jm-aup" firstAttribute="centerY" secondItem="Uln-Ly-rKu" secondAttribute="centerY" id="Y65-xj-Tot"/>
+                            <constraint firstItem="FDV-jm-aup" firstAttribute="height" secondItem="Uln-Ly-rKu" secondAttribute="height" id="gib-ne-N9s"/>
+                            <constraint firstItem="FDV-jm-aup" firstAttribute="centerX" secondItem="Uln-Ly-rKu" secondAttribute="centerX" id="ky3-NA-r9o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMb-tY-NYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186" y="665"/>
+        </scene>
+        <!--Challenge Creation View Controller-->
+        <scene sceneID="dnf-4E-Umo">
+            <objects>
+                <viewController id="s7C-G6-4fw" customClass="ChallengeCreationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lfr-0d-CMO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gbj-Je-eUC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b5y-b7-lpC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First, select some photos to include in the challenge:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0k-P7-Zgj">
+                                <rect key="frame" x="46" y="28" width="509" height="43"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dMQ-f0-rlm">
+                                <rect key="frame" x="46" y="86" width="509" height="86"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="J9R-EO-fl8">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SU8-J6-9W0">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="s7C-G6-4fw" id="CHG-fX-nFO"/>
+                                    <outlet property="delegate" destination="s7C-G6-4fw" id="6vI-ir-huv"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Then select the final prize" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVo-EO-FtR">
+                                <rect key="frame" x="46" y="209" width="509" height="80"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJA-D1-FLp">
+                                <rect key="frame" x="277" y="340" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendChallenge:" destination="s7C-G6-4fw" eventType="touchUpInside" id="r8p-IF-abC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qe-i6-Dpn">
+                                <rect key="frame" x="185" y="293" width="62" height="30"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="100"/>
+                                <connections>
+                                    <action selector="challengePointsButtonPressed:" destination="s7C-G6-4fw" eventType="touchUpInside" id="0tK-0U-xUH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1k-WW-Je1">
+                                <rect key="frame" x="255" y="297" width="50" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1k-Se-0ia">
+                                <rect key="frame" x="0.0" y="384" width="600" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="s7C-G6-4fw" id="1yT-MB-elK"/>
+                                    <outlet property="delegate" destination="s7C-G6-4fw" id="MGu-4I-6yJ"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="challengePhotosCollectionView" destination="dMQ-f0-rlm" id="dvU-l0-lrf"/>
+                        <outlet property="challengePointsButton" destination="0qe-i6-Dpn" id="rPE-3c-MuB"/>
+                        <outlet property="challengePointsPicker" destination="U1k-Se-0ia" id="x8y-KH-H0V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E3k-Hw-Gt5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1175" y="1101"/>
         </scene>
     </scenes>
     <resources>

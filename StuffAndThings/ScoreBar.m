@@ -54,7 +54,6 @@
         [UIView transitionWithView:self.timeLabel duration:0.1f options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
             if ( self.time > 60 )
             {
-                NSLog(@"min: %ld, sec: %ld", numberOfMinutes, numberOfSeconds);
                 self.timeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld", (long)numberOfMinutes, (long)numberOfSeconds];
             }
             else
