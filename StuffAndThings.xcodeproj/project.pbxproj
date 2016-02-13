@@ -21,17 +21,16 @@
 		938142C81C449134002C54D4 /* PhotoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938142C71C449134002C54D4 /* PhotoProvider.swift */; };
 		938AD9FC1C6FC82D00A9640D /* MoveableUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */; };
 		938AD9FE1C6FC90F00A9640D /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938AD9FD1C6FC90F00A9640D /* Globals.swift */; };
-		939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CFFBA1C0223BC00AF9027 /* StartViewController.m */; };
-		939CFFBE1C02629000AF9027 /* PhotoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CFFBD1C02628F00AF9027 /* PhotoProvider.m */; };
+		938ADA001C6FCFC400A9640D /* AddAPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938AD9FF1C6FCFC400A9640D /* AddAPhotoCell.swift */; };
+		938ADA021C6FD05A00A9640D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ADA011C6FD05A00A9640D /* StartViewController.swift */; };
+		938ADA041C6FD08C00A9640D /* SuccessSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ADA031C6FD08C00A9640D /* SuccessSplash.swift */; };
 		93E0C8F21C07303600027CBA /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E0C8F01C07303600027CBA /* PhotoCollectionViewCell.m */; };
 		93E0C8F31C07303600027CBA /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E0C8F11C07303600027CBA /* PhotoCollectionViewCell.xib */; };
 		93E0C8F61C07347300027CBA /* ChallengeCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E0C8F51C07347300027CBA /* ChallengeCreationViewController.m */; };
-		93E0C8FB1C07E66C00027CBA /* AddAPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E0C8F91C07E66C00027CBA /* AddAPhotoCell.m */; };
 		93E0C8FC1C07E66C00027CBA /* AddAPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E0C8FA1C07E66C00027CBA /* AddAPhotoCell.xib */; };
 		93E0C8FE1C07E8F800027CBA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E0C8FD1C07E8F800027CBA /* Photos.framework */; };
 		93F63BE81BEFE83800C58C4E /* ScoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F63BE71BEFE83800C58C4E /* ScoreBar.m */; };
 		93F63BEA1BEFE84800C58C4E /* ScoreBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F63BE91BEFE84800C58C4E /* ScoreBar.xib */; };
-		93F715E31BF55C26009A4E56 /* SuccessSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F715E21BF55C26009A4E56 /* SuccessSplash.m */; };
 		93F715E51BF55C36009A4E56 /* SuccessSplash.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F715E41BF55C36009A4E56 /* SuccessSplash.xib */; };
 		AAB416A908192D127DD47E43 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68E6B5949507DC24A11DC1E /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -57,25 +56,20 @@
 		938142C71C449134002C54D4 /* PhotoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoProvider.swift; sourceTree = "<group>"; };
 		938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveableUIImageView.swift; sourceTree = "<group>"; };
 		938AD9FD1C6FC90F00A9640D /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
-		939CFFB91C0223BC00AF9027 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
-		939CFFBA1C0223BC00AF9027 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
-		939CFFBC1C02628F00AF9027 /* PhotoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoProvider.h; sourceTree = "<group>"; };
-		939CFFBD1C02628F00AF9027 /* PhotoProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoProvider.m; sourceTree = "<group>"; };
+		938AD9FF1C6FCFC400A9640D /* AddAPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAPhotoCell.swift; sourceTree = "<group>"; };
+		938ADA011C6FD05A00A9640D /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		938ADA031C6FD08C00A9640D /* SuccessSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessSplash.swift; sourceTree = "<group>"; };
 		93E0C8EF1C07303600027CBA /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		93E0C8F01C07303600027CBA /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		93E0C8F11C07303600027CBA /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		93E0C8F41C07347300027CBA /* ChallengeCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeCreationViewController.h; sourceTree = "<group>"; };
 		93E0C8F51C07347300027CBA /* ChallengeCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeCreationViewController.m; sourceTree = "<group>"; };
-		93E0C8F81C07E66C00027CBA /* AddAPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAPhotoCell.h; sourceTree = "<group>"; };
-		93E0C8F91C07E66C00027CBA /* AddAPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAPhotoCell.m; sourceTree = "<group>"; };
 		93E0C8FA1C07E66C00027CBA /* AddAPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAPhotoCell.xib; sourceTree = "<group>"; };
 		93E0C8FD1C07E8F800027CBA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		93F63BE61BEFE83800C58C4E /* ScoreBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBar.h; sourceTree = "<group>"; };
 		93F63BE71BEFE83800C58C4E /* ScoreBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBar.m; sourceTree = "<group>"; };
 		93F63BE91BEFE84800C58C4E /* ScoreBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreBar.xib; sourceTree = "<group>"; };
 		93F63BEB1BEFED8E00C58C4E /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
-		93F715E11BF55C26009A4E56 /* SuccessSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessSplash.h; sourceTree = "<group>"; };
-		93F715E21BF55C26009A4E56 /* SuccessSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessSplash.m; sourceTree = "<group>"; };
 		93F715E41BF55C36009A4E56 /* SuccessSplash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SuccessSplash.xib; path = ../SuccessSplash.xib; sourceTree = "<group>"; };
 		CB770D539D5BDC9140115712 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D68E6B5949507DC24A11DC1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,23 +133,18 @@
 				9333926A1BAD7C8600EEC7C4 /* Supporting Files */,
 				938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */,
 				93F715E41BF55C36009A4E56 /* SuccessSplash.xib */,
-				93F715E11BF55C26009A4E56 /* SuccessSplash.h */,
-				93F715E21BF55C26009A4E56 /* SuccessSplash.m */,
+				938ADA031C6FD08C00A9640D /* SuccessSplash.swift */,
 				93F63BE61BEFE83800C58C4E /* ScoreBar.h */,
 				93F63BE71BEFE83800C58C4E /* ScoreBar.m */,
 				93F63BE91BEFE84800C58C4E /* ScoreBar.xib */,
 				93F63BEB1BEFED8E00C58C4E /* Globals.h */,
-				939CFFB91C0223BC00AF9027 /* StartViewController.h */,
-				939CFFBA1C0223BC00AF9027 /* StartViewController.m */,
-				939CFFBC1C02628F00AF9027 /* PhotoProvider.h */,
-				939CFFBD1C02628F00AF9027 /* PhotoProvider.m */,
+				938ADA011C6FD05A00A9640D /* StartViewController.swift */,
 				93E0C8EF1C07303600027CBA /* PhotoCollectionViewCell.h */,
 				93E0C8F01C07303600027CBA /* PhotoCollectionViewCell.m */,
 				93E0C8F11C07303600027CBA /* PhotoCollectionViewCell.xib */,
 				93E0C8F41C07347300027CBA /* ChallengeCreationViewController.h */,
 				93E0C8F51C07347300027CBA /* ChallengeCreationViewController.m */,
-				93E0C8F81C07E66C00027CBA /* AddAPhotoCell.h */,
-				93E0C8F91C07E66C00027CBA /* AddAPhotoCell.m */,
+				938AD9FF1C6FCFC400A9640D /* AddAPhotoCell.swift */,
 				93E0C8FA1C07E66C00027CBA /* AddAPhotoCell.xib */,
 				930EB4FA1C39C5E9009B6416 /* MyChallengesViewController.h */,
 				930EB4FB1C39C5E9009B6416 /* MyChallengesViewController.m */,
@@ -313,21 +302,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F63BE81BEFE83800C58C4E /* ScoreBar.m in Sources */,
+				938ADA021C6FD05A00A9640D /* StartViewController.swift in Sources */,
+				938ADA041C6FD08C00A9640D /* SuccessSplash.swift in Sources */,
 				93E0C8F21C07303600027CBA /* PhotoCollectionViewCell.m in Sources */,
 				933392721BAD7C8600EEC7C4 /* ViewController.m in Sources */,
-				93F715E31BF55C26009A4E56 /* SuccessSplash.m in Sources */,
 				938AD9FE1C6FC90F00A9640D /* Globals.swift in Sources */,
 				930EB5021C39FD38009B6416 /* MyChallengesViewController.swift in Sources */,
-				939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */,
 				938142C81C449134002C54D4 /* PhotoProvider.swift in Sources */,
+				938ADA001C6FCFC400A9640D /* AddAPhotoCell.swift in Sources */,
 				9333926F1BAD7C8600EEC7C4 /* AppDelegate.m in Sources */,
 				930EB4FC1C39C5E9009B6416 /* MyChallengesViewController.m in Sources */,
 				9333926C1BAD7C8600EEC7C4 /* main.m in Sources */,
 				93E0C8F61C07347300027CBA /* ChallengeCreationViewController.m in Sources */,
 				938AD9FC1C6FC82D00A9640D /* MoveableUIImageView.swift in Sources */,
 				930EB5041C39FD5B009B6416 /* ChallengeCell.swift in Sources */,
-				939CFFBE1C02629000AF9027 /* PhotoProvider.m in Sources */,
-				93E0C8FB1C07E66C00027CBA /* AddAPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

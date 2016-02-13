@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "MoveableUIImageView.h"
+
 #import "ScoreBar.h"
-#import "SuccessSplash.h"
+//#import "SuccessSplash.h"
 //#import "PhotoProvider.h"
 #import "StuffAndThings-Swift.h"
 

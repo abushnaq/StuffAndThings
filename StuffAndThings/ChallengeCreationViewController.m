@@ -8,7 +8,7 @@
 
 #import "ChallengeCreationViewController.h"
 #import "PhotoCollectionViewCell.h"
-#import "AddAPhotoCell.h"
+#import "StuffAndThings-Swift.h"
 #import "Globals.h"
 #import "SSZipArchive.h"
 #import <Photos/Photos.h>
