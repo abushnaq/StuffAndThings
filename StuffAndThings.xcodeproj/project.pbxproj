@@ -18,8 +18,9 @@
 		933392771BAD7C8600EEC7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933392761BAD7C8600EEC7C4 /* Assets.xcassets */; };
 		9333927A1BAD7C8600EEC7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933392781BAD7C8600EEC7C4 /* LaunchScreen.storyboard */; };
 		933392821BAD7DBC00EEC7C4 /* IMG_0036.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 933392811BAD7DBC00EEC7C4 /* IMG_0036.PNG */; };
-		933392851BAD800900EEC7C4 /* MoveableUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 933392841BAD800900EEC7C4 /* MoveableUIImageView.m */; };
 		938142C81C449134002C54D4 /* PhotoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938142C71C449134002C54D4 /* PhotoProvider.swift */; };
+		938AD9FC1C6FC82D00A9640D /* MoveableUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */; };
+		938AD9FE1C6FC90F00A9640D /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938AD9FD1C6FC90F00A9640D /* Globals.swift */; };
 		939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CFFBA1C0223BC00AF9027 /* StartViewController.m */; };
 		939CFFBE1C02629000AF9027 /* PhotoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CFFBD1C02628F00AF9027 /* PhotoProvider.m */; };
 		93E0C8F21C07303600027CBA /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E0C8F01C07303600027CBA /* PhotoCollectionViewCell.m */; };
@@ -53,9 +54,9 @@
 		933392791BAD7C8600EEC7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9333927B1BAD7C8600EEC7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933392811BAD7DBC00EEC7C4 /* IMG_0036.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0036.PNG; sourceTree = "<group>"; };
-		933392831BAD800900EEC7C4 /* MoveableUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveableUIImageView.h; sourceTree = "<group>"; };
-		933392841BAD800900EEC7C4 /* MoveableUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveableUIImageView.m; sourceTree = "<group>"; };
 		938142C71C449134002C54D4 /* PhotoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoProvider.swift; sourceTree = "<group>"; };
+		938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveableUIImageView.swift; sourceTree = "<group>"; };
+		938AD9FD1C6FC90F00A9640D /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		939CFFB91C0223BC00AF9027 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
 		939CFFBA1C0223BC00AF9027 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		939CFFBC1C02628F00AF9027 /* PhotoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoProvider.h; sourceTree = "<group>"; };
@@ -136,8 +137,7 @@
 				933392781BAD7C8600EEC7C4 /* LaunchScreen.storyboard */,
 				9333927B1BAD7C8600EEC7C4 /* Info.plist */,
 				9333926A1BAD7C8600EEC7C4 /* Supporting Files */,
-				933392831BAD800900EEC7C4 /* MoveableUIImageView.h */,
-				933392841BAD800900EEC7C4 /* MoveableUIImageView.m */,
+				938AD9FB1C6FC82D00A9640D /* MoveableUIImageView.swift */,
 				93F715E41BF55C36009A4E56 /* SuccessSplash.xib */,
 				93F715E11BF55C26009A4E56 /* SuccessSplash.h */,
 				93F715E21BF55C26009A4E56 /* SuccessSplash.m */,
@@ -163,6 +163,7 @@
 				930EB5001C39FD37009B6416 /* StuffAndThings-Bridging-Header.h */,
 				930EB5031C39FD5B009B6416 /* ChallengeCell.swift */,
 				938142C71C449134002C54D4 /* PhotoProvider.swift */,
+				938AD9FD1C6FC90F00A9640D /* Globals.swift */,
 			);
 			path = StuffAndThings;
 			sourceTree = "<group>";
@@ -315,6 +316,7 @@
 				93E0C8F21C07303600027CBA /* PhotoCollectionViewCell.m in Sources */,
 				933392721BAD7C8600EEC7C4 /* ViewController.m in Sources */,
 				93F715E31BF55C26009A4E56 /* SuccessSplash.m in Sources */,
+				938AD9FE1C6FC90F00A9640D /* Globals.swift in Sources */,
 				930EB5021C39FD38009B6416 /* MyChallengesViewController.swift in Sources */,
 				939CFFBB1C0223BC00AF9027 /* StartViewController.m in Sources */,
 				938142C81C449134002C54D4 /* PhotoProvider.swift in Sources */,
@@ -322,8 +324,8 @@
 				930EB4FC1C39C5E9009B6416 /* MyChallengesViewController.m in Sources */,
 				9333926C1BAD7C8600EEC7C4 /* main.m in Sources */,
 				93E0C8F61C07347300027CBA /* ChallengeCreationViewController.m in Sources */,
+				938AD9FC1C6FC82D00A9640D /* MoveableUIImageView.swift in Sources */,
 				930EB5041C39FD5B009B6416 /* ChallengeCell.swift in Sources */,
-				933392851BAD800900EEC7C4 /* MoveableUIImageView.m in Sources */,
 				939CFFBE1C02629000AF9027 /* PhotoProvider.m in Sources */,
 				93E0C8FB1C07E66C00027CBA /* AddAPhotoCell.m in Sources */,
 			);

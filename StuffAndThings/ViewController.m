@@ -137,19 +137,19 @@ static NSInteger puzzleSize = 2;
                     bottomBlock = self.board[rowID+1][columnID];
                 }
                 
-                if ( topBlock.isPirate )
+                if ( topBlock.pirate )
                 {
                     [self swapBlockAtRow:rowID andColumn:columnID withBlockAtRow:rowID-1 andColumn:columnID];
                 }
-                else if ( bottomBlock.isPirate )
+                else if ( bottomBlock.pirate )
                 {
                     [self swapBlockAtRow:rowID andColumn:columnID withBlockAtRow:rowID+1 andColumn:columnID];
                 }
-                else if ( rightBlock.isPirate )
+                else if ( rightBlock.pirate )
                 {
                     [self swapBlockAtRow:rowID andColumn:columnID withBlockAtRow:rowID andColumn:columnID+1];
                 }
-                else if ( leftBlock.isPirate )
+                else if ( leftBlock.pirate )
                 {
                     [self swapBlockAtRow:rowID andColumn:columnID withBlockAtRow:rowID andColumn:columnID-1];
                 }
